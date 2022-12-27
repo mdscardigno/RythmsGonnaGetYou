@@ -31,10 +31,18 @@ CREATE TABLE "Albums"(
 );
 
 --Add a song to an album
+CREATE TABLE "Songs"(
+"Id" SERIAL PRIMARY KEY,
+"Title" TEXT,
+"Duration" TIME,
+"TrackNumber" INTEGER,
+"AlbumId" INTEGER REFERENCES "Albums"
+);
 
 --Let a band go (update isSigned to false)
 
 --Resign a band (update isSigned to true)
+
 
 --Given a band name, view all their albums
 
