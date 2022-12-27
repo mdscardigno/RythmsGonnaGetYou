@@ -19,9 +19,16 @@ CREATE TABLE "Bands"(
 
 --View all the bands
 
-Select * "Bands"
+Select * FROM "Bands"
 
 --Add an album for a band
+CREATE TABLE "Albums"(
+"Id" SERIAL PRIMARY KEY,
+"Title" TEXT,
+"ReleaseDate" DATE,
+"isExplicit" BOOLEAN,
+"BandId" INTEGER REFERENCES "Bands"
+);
 
 --Add a song to an album
 
