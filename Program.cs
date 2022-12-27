@@ -6,7 +6,7 @@ namespace RythmsGonnaGetYou
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to C#");
+            Console.WriteLine("Welcome to The Rythms Gonna Get You Management System!");
         }
     }
 }
