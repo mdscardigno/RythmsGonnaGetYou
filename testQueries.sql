@@ -54,7 +54,7 @@ UPDATE "Bands" SET "IsSigned" = true WHERE "Id" = 1;
 SELECT * FROM "Albums" WHERE "BandId" = 1;
 
 --View all albums (and their associated songs) ordered by ReleaseDate
-SELECT * FROM "Albums" JOIN "Songs" ORDER BY "ReleaseDate";
+SELECT * FROM "Albums" INNER JOIN "Songs" ORDER BY "ReleaseDate";
 
 --View all bands that are signed
 SELECT * FROM "Bands" WHERE "IsSigned" = true;
