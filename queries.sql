@@ -20,6 +20,7 @@ CREATE TABLE "Albums"
   "Title" TEXT, 
   "isExplicit" BOOLEAN, 
   "ReleaseDate" DATE
+  "BandId" INTEGER NULL REFERENCES "Bands" ("Id")--ALTER TABLE "Album" ADD COLUMN "BandId" INTEGER NULL REFERENCES "Bands" ("Id");
 );
 
 CREATE TABLE "Songs"
@@ -27,7 +28,8 @@ CREATE TABLE "Songs"
   "Id" SERIAL PRIMARY KEY, 
   "Title" TEXT, 
   "Duration" TIME, 
-  "TrackNumber" INTEGER"
+  "TrackNumber" INTEGER,
+  "AlbumID" INTEGER NULL REFERENCES "Albums" ("Id")--ALTER TABLE "Songs" ADD COLUMN "AlbumID" INTEGER NULL REFERENCES "Albums" ("Id");
 );
 
 INSERT INTO "Bands" ("Id", "Name", "CountryOfOrigin", "NumberOfMembers", "Website", "Genre", "IsSigned", "ContactName") 
@@ -257,3 +259,57 @@ VALUES(35, 'Bizarre Love Triangle', '00:06:42', 11);
 --Substance 1987
 INSERT INTO Songs ("Id", "Title", "Duration", "TrackNumber")
 VALUES(36, 'True Faith', '00:05:55', 12);
+
+--END OF DATA
+
+
+
+--POSSIBLE QUERIES
+CREATE TABLE "Band" (
+  "Id " SERIAL PRIMARY KEY,
+  "Name" Text,
+  "CountryOfOrigin" Text,
+  "NumbeOfMembers" Int,
+  "Website" Text,
+  "Genre" Text,
+  "IsSigned" Bool,
+  "ContactName" Text,
+  "AlbumId" Int
+);
+
+CREATE TABLE "Album" (
+  "Id" SERIAL PRIMARY KEY,
+  "Title" Text,
+  "IsExplicit" Bool,
+  "ReleaseDate" DateTime,
+  "BandId" Int,
+  CONSTRAINT "FK_Album.BandId"
+    FOREIGN KEY ("BandId")
+      REFERENCES "Band"("Id ")
+);
+
+CREATE TABLE "Song" (
+  "Id" SERIAL PRIMARY KEY,
+  "TrackNumber" Int,
+  "Title" Text,
+  "Duration" DateTime 00:00:00,
+  "AlbumId" Int,
+  CONSTRAINT "FK_Song.AlbumId"
+    FOREIGN KEY ("AlbumId")
+      REFERENCES "Album"("Id")
+);
+
+UPDATE "Songs" SET "AlbumId" = 1 WHERE "Id" IN (1);
+UPDATE "Songs" SET "AlbumId" = 2 WHERE "Id" IN (2);
+UPDATE "Songs" SET "AlbumId" = 3 WHERE "Id" IN (3);
+UPDATE "Songs" SET "AlbumId" = 4 WHERE "Id" IN (4);
+UPDATE "Songs" SET "AlbumId" = 5 WHERE "Id" IN (5);
+
+UPDATE "Albums" SET "BandId" = 1 WHERE "Id" IN (1);
+UPDATE "Albums" SET "BandId" = 2 WHERE "Id" IN (2);
+UPDATE "Albums" SET "BandId" = 3 WHERE "Id" IN (3);
+UPDATE "Albums" SET "BandId" = 4 WHERE "Id" IN (4);
+UPDATE "Albums" SET "BandId" = 5 WHERE "Id" IN (5);
+
+
+
