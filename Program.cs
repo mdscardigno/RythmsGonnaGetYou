@@ -34,8 +34,11 @@ namespace RythmsGonnaGetYou
                 // Console.WriteLine($"{"f".Pastel(Color.DarkGoldenrod)}");
                 // Console.WriteLine($"{"/`-'\\$".Pastel(Color.DarkGoldenrod)}");
                 // Console.WriteLine($"{"(_ / -\\_)".Pastel(Color.DarkGoldenrod)}");
-
             };
+
+            
+
+            
             DisplayGreeting();
         }
     }
