@@ -21,7 +21,7 @@ CREATE TABLE "Band" (
 CREATE TABLE "Album" (
   "Id" SERIAL PRIMARY KEY,
   "Title" TEXT,
-  "IsExplicit" BOOL,
+  "I" BOOL,
   "ReleaseDate" DATE,
   "BandId" INT NULL REFERENCES "Band" ("Id")
 );
@@ -37,7 +37,7 @@ CREATE TABLE "Song" (
 --View all the bands SELECT * FROM "Band"
 
 --Add an album for a band 
-INSERT INTO "Album"("Title", "ReleaseDate", "isExplicit", "BandId") 
+INSERT INTO "Album"("Title", "ReleaseDate", "IsExplicit", "BandId") 
 VALUES('Galore', '1997-10-23', true, 1);
 
 --Add a song to an album 

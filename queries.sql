@@ -54,61 +54,61 @@ Entity Relationships Requirements:
 
 --Adding Albums
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (1, 'Parachutes', false, '2000-06-12');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (2, 'The Music of the Spheres', false, '2015-12-04');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (3, 'X&Y', false, '2005-09-10');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (4, 'Aerosmith', false, '1973-12-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (5, 'Get A Grip', false, '1993-12-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (6, 'I Don''t want to Miss a Thing', false, '1998-08-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (7, 'Permanent Vacation', false, '1987-05-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (8, 'Greatest Hits', false, '2020-06-10');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (9, 'Appetite for Destruction', false, '1987-02-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (11, 'G N'' R Lies', false, '1988-10-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (12, 'Galore', false, '1997-05-12');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (13, 'Kiss me, kiss me, kiss me', false, '1987-05-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (14, 'Disintegration', false, '1989-05-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (15, 'Power, Corruptions & Lies', false, '1983-07-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (16, 'Brotherhood', false, '1986-05-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (17, 'New Order 511', false, '2002-11-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (18, 'A Rush Of Blood', true, '2002-10-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (19, 'Viva La Vida', false, '2008-05-01');
 
-INSERT INTO "Album" ("Id", "Title", "isExplicit", "ReleaseDate")
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
 VALUES (20, 'Substance', false, '1987-12-01');
 
 --Adding Songs
