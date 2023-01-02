@@ -61,3 +61,5 @@ SELECT * FROM "Band" WHERE "IsSigned" = true;
 
 --View all bands that are not signed 
 SELECT * FROM "Band" WHERE "IsSigned" = false;
+
+
