@@ -37,12 +37,12 @@ CREATE TABLE "Song" (
 --View all the bands SELECT * FROM "Band"
 
 --Add an album for a band 
-INSERT INTO "Album"("Title", "ReleaseDate", "IsExplicit", "BandId") 
-VALUES('Galore', '1997-10-23', true, 1);
+INSERT INTO "Album"("Id", "Title", "IsExplicit", "ReleaseDate", "BandId") 
+VALUES('1', 'Galore', true, '1997-10-23', 1);
 
 --Add a song to an album 
-INSERT INTO "Song"("Title", "Duration", "TrackNumber", "AlbumId") 
-VALUES('Pictures of You', '00:04:48', 1, 1);
+INSERT INTO "Song"("Id", "TrackNumber", "Title", "Duration", "AlbumId") 
+VALUES('1', '1', 'Pictures of You', '00:04:48', 1);
 
 --Let a band go (update isSigned to false) 
 UPDATE "Band" SET "IsSigned" = false WHERE "Id" = 1;

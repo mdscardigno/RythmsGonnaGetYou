@@ -54,209 +54,209 @@ Entity Relationships Requirements:
 
 --Adding Albums
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (1, 'Parachutes', false, '2000-06-12');
+INSERT INTO "Album"("Id", "Title", "IsExplicit", "ReleaseDate", "BandId") 
+VALUES (1, 'Parachutes', false, '2000-06-12', 1);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (2, 'The Music of the Spheres', false, '2015-12-04');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (2, 'The Music of the Spheres', false, '2015-12-04', 2);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (3, 'X&Y', false, '2005-09-10');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (3, 'X&Y', false, '2005-09-10', 3);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (4, 'Aerosmith', false, '1973-12-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (4, 'Aerosmith', false, '1973-12-01', 4);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (5, 'Get A Grip', false, '1993-12-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (5, 'Get A Grip', false, '1993-12-01', 5);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (6, 'I Don''t want to Miss a Thing', false, '1998-08-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (6, 'I Don''t want to Miss a Thing', false, '1998-08-01', 6);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (7, 'Permanent Vacation', false, '1987-05-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (7, 'Permanent Vacation', false, '1987-05-01', 7);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (8, 'Greatest Hits', false, '2020-06-10');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (8, 'Greatest Hits', false, '2020-06-10', 8);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (9, 'Appetite for Destruction', false, '1987-02-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (9, 'Appetite for Destruction', false, '1987-02-01', 9);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (11, 'G N'' R Lies', false, '1988-10-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (11, 'G N'' R Lies', false, '1988-10-01', 10);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (12, 'Galore', false, '1997-05-12');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (12, 'Galore', false, '1997-05-12', 11);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (13, 'Kiss me, kiss me, kiss me', false, '1987-05-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (13, 'Kiss me, kiss me, kiss me', false, '1987-05-01', 12);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (14, 'Disintegration', false, '1989-05-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (14, 'Disintegration', false, '1989-05-01', 13);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (15, 'Power, Corruptions & Lies', false, '1983-07-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (15, 'Power, Corruptions & Lies', false, '1983-07-01', 14);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (16, 'Brotherhood', false, '1986-05-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (16, 'Brotherhood', false, '1986-05-01', 15);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (17, 'New Order 511', false, '2002-11-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (17, 'New Order 511', false, '2002-11-01', 16);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (18, 'A Rush Of Blood', true, '2002-10-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (18, 'A Rush Of Blood', true, '2002-10-01'17);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (19, 'Viva La Vida', false, '2008-05-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (19, 'Viva La Vida', false, '2008-05-01', 18);
 
-INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate")
-VALUES (20, 'Substance', false, '1987-12-01');
+INSERT INTO "Album" ("Id", "Title", "IsExplicit", "ReleaseDate", "BandId")
+VALUES (20, 'Substance', false, '1987-12-01', 19);
 
 --Adding Songs
 
 
 --Parachutes
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (1, 'Yellow', '00:04:26', 5);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (1, 5, 'Yellow', '00:04:26', 1);
 
 --Music of the Spheres
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (2, 'Let Someone Go', '00:04:01', 5);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (2, 5, 'Let Someone Go', '00:04:01', 2);
 
 --Music of the Spheres
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (3, 'My Universe', '00:03:46', 10);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (3, 10, 'My Universe', '00:03:46', 3);
 
 --X&Y
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (4, 'Fix You', '00:04:55', 4);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (4, 4, 'Fix You', '00:04:55', 4);
 
 --X&Y
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (5, 'Talk', '00:05:11', 5);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (5, 5, 'Talk', '00:05:11', 5);
 
 --A Rush of Blood to the Head
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (6, 'The Scientist', '00:04:15', 1);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (6, 1, 'The Scientist', '00:04:15', 6);
 
 --A Rush of Blood to the Head
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (7, 'Clocks', '00:05:07', 1);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (7, 1, 'Clocks', '00:05:07', 7);
 
 --A Rush of Blood to the Head
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (8, 'In My Place', '00:04:15', 1);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (8, 1, 'In My Place', '00:04:15', 8);
 
 --Viva La Vida
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (9, 'Lost!', '00:03:56', 3);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (9, 3, 'Lost!', '00:03:56', 9);
 
 --Viva La Vida
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (10, 'Viva La Vida', '00:04:02', 7);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (10, 7, 'Viva La Vida', '00:04:02', 10);
 
 --X&Y
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (11, 'Speed of Sound', '00:04:47', 7);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (11, 7 'Speed of Sound', '00:04:47', 11);
 
 --Viva La Vida
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (12, 'Life in Technicolor', '00:02:29', 1);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (12, 1, 'Life in Technicolor', '00:02:29', 12);
 
 --Mylo Xykoto
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (13, 'Every Teardrop is a Waterfall', '00:04:00', 7);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (13, 7, 'Every Teardrop is a Waterfall', '00:04:00', 13);
 
 --Mylo Xykoto
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (14, 'Don't Let It Break Your Heart', '00:03:54', 11);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (14, 11, 'Don''t Let It Break Your Heart', '00:03:54', 14);
 
 --Get A Grip 1993
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (15, 'Cryin'', '00:05:08', 9);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (15, 9, 'Cryin''', '00:05:08', 15);
 
 --Get A Grip 1993
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (16, 'Crazy', '00:05:16', 11);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (16, 11, 'Crazy', '00:05:16', 16);
 
 --Permanent Vacation 1987
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (17, 'Dude Looks Like A Lady', '00:04:25', 5);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (17, 5, 'Dude Looks Like A Lady', '00:04:25', );
 
 --Permanent Vacation 1987
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (18, 'Angel', '00:05:08', 9);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (18, 'Angel', '00:05:08', 9, 17);
 
 --Appetite for Destruction 1987
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (19, 'Welcome to the Jungle', '00:05:03', 1);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (19, 1, 'Welcome to the Jungle', '00:05:03', 18);
 
 --Appetite for Destruction 1987
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (20, 'Sweet Child O'' Mine', '00:05:56', 9);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (20, 9, 'Sweet Child O'' Mine', '00:05:56', 19);
 
 --Appetite for Destruction 1987
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (21, 'Paradise City', '00:06:45', 6);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (21, 6, 'Paradise City', '00:06:45', 20);
 
 --G N' R Lies 1988
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (22, 'Patience', '00:05:00', 1);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (22, 1, 'Patience', '00:05:00', 21);
 
 --G N' R Lies 1988
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (23, 'You Could Be Mine', '00:04:55', 2);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (23, 7, 'You Could Be Mine', '00:04:55', 22);
 
 --Galore 1997
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (24, 'Catch', '00:02:45', 2);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (24, 2, 'Catch', '00:02:45', 23);
 
 --Galore 1997
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (25, 'Pictures of You', '00:04:48', 8);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (25, 8, 'Pictures of You', '00:04:48', 24);
 
 --Galore 1997
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (26, 'Just Like Heaven', '00:03:32', 3);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (26, 3, 'Just Like Heaven', '00:03:32', 25);
 
 --Galore 1997
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (27, 'Lullaby', '00:04:10', 5);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (27, 5, 'Lullaby', '00:04:10', 26);
 
 --Galore 1997
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (28, 'Fascination Street', '00:04:20', 6);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (28, 6, 'Fascination Street', '00:04:20', 27);
 
 --Galore 1997
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES (29, 'Love Song', '00:03:28', 7)
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES (29, 7, 'Love Song', '00:03:28', 28)
 
 --Galore 1997
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES(30, 'Close to Me', '00:04:21', 10);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES(30, 10, 'Close to Me', '00:04:21', 29);
 
 --Galore 1997
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES(31, 'A Letter to Elise', '00:05:11', 13);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES(31, 13, 'A Letter to Elise', '00:05:11', 30);
 
 --Power of Corruption and Lies 1983
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES(32, 'Age of Consent', '00:05:15', 1);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES(32, 1, 'Age of Consent', '00:05:15', 31);
 
 --Substance 1987
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES(33, 'Temptation', '00:06:59', 3);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES(33, 3, 'Temptation', '00:06:59', 32);
 
 --Substance 1987
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES(34, 'Blue Monday', '00:07:29', 4);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES(34, 4, 'Blue Monday', '00:07:29', 33);
 
 --Substance 1987
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES(35, 'Bizarre Love Triangle', '00:06:42', 11);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES(35, 11, 'Bizarre Love Triangle', '00:06:42', 34);
 
 --Substance 1987
-INSERT INTO Song ("Id", "Title", "Duration", "TrackNumber")
-VALUES(36, 'True Faith', '00:05:55', 12);
+INSERT INTO Song ("Id", "TrackNumber", "Title", "Duration", "AlbumId")
+VALUES(36, 12, 'True Faith', '00:05:55', 35);
 
 --END OF DATA
 
